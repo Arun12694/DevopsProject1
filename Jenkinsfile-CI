@@ -9,6 +9,7 @@ pipeline {
     // DECLARE THE VARIABLES HERE:
     environment {
         DOCKER_USERNAME = "arun7985"     // check the 'ID' in your Jenkins credentials
+        PATH = "/opt/apache-maven-3.9.11/bin:$PATH"
     }
 
     stages {
